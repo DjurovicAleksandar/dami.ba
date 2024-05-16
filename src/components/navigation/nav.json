@@ -1,0 +1,28 @@
+{
+  "list": [
+    {
+      "name": "Početna",
+      "href": "/s"
+    },
+    {
+      "name": "O meni",
+      "href": "/o-meni"
+    },
+    {
+      "name": "Fitness",
+      "href": "/"
+    },
+    {
+      "name": "Swimming",
+      "href": "/"
+    },
+    {
+      "name": "Wellnes",
+      "href": "/"
+    },
+    {
+      "name": "Kontakt",
+      "href": "/kontakt"
+    }
+  ]
+}
