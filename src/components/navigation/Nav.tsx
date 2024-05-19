@@ -55,7 +55,7 @@ const Nav = () => {
   return (
     <nav
       ref={navRef}
-      className={`nav fixed w-full z-[50] duration-300 ease-linear px-56 pt-12 pb-6 items-center justify-between flex shadow-sm ${
+      className={`nav fixed w-full z-[50] duration-300 ease-linear px-56 py-6 items-center justify-between flex shadow-sm ${
         isOnTop ? "backdrop-blur-none" : "backdrop-blur-md"
       } `}
     >
@@ -63,7 +63,7 @@ const Nav = () => {
       <ul className="flex items-center gap-4 text-black">
         {list.list.map(({ name, href }, i) => {
           return (
-            <li key={i}>
+            <li key={i} className="hover:text-darkBlue">
               <Link href={href}>{name}</Link>
             </li>
           );
