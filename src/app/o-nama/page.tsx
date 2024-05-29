@@ -6,6 +6,8 @@ import AboutLocation from "@/components/about/AboutLocation";
 import AboutCTA from "@/components/about/AboutCTA";
 import AboutSponsors from "@/components/about/AboutSponsors";
 import AboutTeam from "@/components/about/AboutTeam";
+import AboutGallery from "@/components/about/AboutGallery";
+import AboutTestimony from "@/components/about/AboutTestimony";
 
 export default function About() {
   return (
@@ -14,9 +16,13 @@ export default function About() {
       <AboutOffer />
       <AboutCountUp />
       <AboutJourney />
-      <AboutSponsors />
+      <div className=" bg-light-gradient">
+        <AboutSponsors />
+        <AboutTestimony />
+      </div>
       <AboutTeam />
       <AboutLocation />
+      <AboutGallery />
       <AboutCTA />
     </>
   );

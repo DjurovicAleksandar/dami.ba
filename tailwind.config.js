@@ -11,9 +11,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "light-gradient":
+          "radial-gradient(circle, rgba(238,246,255,1) 7%, rgba(50,151,204,0.6195728291316527) 100%)",
       },
       colors: {
         lightBlue: "#EEF6FF",

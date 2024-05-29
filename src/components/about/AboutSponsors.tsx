@@ -33,7 +33,7 @@ export default function AboutSponsors() {
     <>
       <div
         ref={thirdSectionRef}
-        className="w-full  flex flex-col gap-[3vw] relative z-1 overflow-hidden bg-lightBlue"
+        className="w-full  flex flex-col gap-[3vw] relative z-1 overflow-hidden "
       >
         <motion.div
           className="flex relative justify-center gap-[10vw] w-[100vw] -left-[10vw] py-20 "
