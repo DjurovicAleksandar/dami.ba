@@ -6,7 +6,7 @@ import Nav from "@/components/navigation/Nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dami.ba",
+  title: "Dami",
   description: "Prostor za rast",
 };
 
