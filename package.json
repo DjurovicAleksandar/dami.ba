@@ -9,12 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-
     "@portabletext/react": "^3.1.0",
     "@sanity/image-url": "^1.0.2",
-
+    "@sanity/vision": "^3.44.0",
     "framer-motion": "^11.2.6",
-
     "gsap": "^3.12.5",
     "next": "14.2.3",
     "next-sanity": "^9.3.1",
@@ -22,7 +20,8 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-hook-form": "^7.51.5",
-    "react-player": "^2.16.0"
+    "react-player": "^2.16.0",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
