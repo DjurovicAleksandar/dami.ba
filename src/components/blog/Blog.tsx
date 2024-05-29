@@ -23,9 +23,8 @@ const BlogSection = async () => {
   const data: BlogCard[] = await getData();
 
   return (
-    <section className="w-full flex flex-col items-center justify-center gap-y-20 my-20 px-28">
-      <h2 className="text-4xl">Želite li da popravite Vaše zdravlje?</h2>
-
+    <section className="w-full flex flex-col items-center justify-center gap-y-20 my-20 px-56">
+      <h2 className="text-6xl  mb-10 text-left w-full">Blog</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {data.map((post, i) => (
           <div

@@ -30,7 +30,8 @@ const testimonies = [
 export default function AboutTestimony() {
   return (
     <section className="py-28 px-56">
-      <h2 className="text-6xl font-bold mb-28 text-left">Rekli su o nama</h2>
+      <h2 className="text-6xl  mb-28 text-left w-full">Rekli su o nama</h2>
+
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {testimonies.map((testimony) => (
           <div

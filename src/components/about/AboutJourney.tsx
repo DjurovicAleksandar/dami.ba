@@ -15,7 +15,7 @@ export default function AboutJourney() {
         </div>
         <div className="w-full">
           <div className="pr-56 ">
-            <h3 className="text-4xl font-bold my-10">Kako je počelo</h3>
+            <h3 className="text-4xl  my-10">Kako je počelo</h3>
             <p>
               Klub je osnovala univerzitetska profesorica i doktor nauka iz
               oblasti sporta i tjelesnog odgoja, Damira Vranešić –
@@ -41,7 +41,7 @@ export default function AboutJourney() {
       <div className="flex items-center justify-center mb-28">
         <div className="w-full">
           <div className="pl-56 ">
-            <h2 className="text-4xl font-bold my-10">Kako napreduje</h2>
+            <h2 className="text-4xl  my-10">Kako napreduje</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
               provident obcaecati rerum fugiat, tempora facere, dignissimos

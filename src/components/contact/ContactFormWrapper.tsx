@@ -5,10 +5,21 @@ import background from "@/assets/img/contact/background.webp";
 export default function ContactFormWrapper() {
   return (
     <div className="px-56 py-28 relative">
-      <h2 className="text-6xl font-bold mb-28 relative z-10">Vaši detalji</h2>
-      <div className="absolute z-0 w-4/5 bottom-0 left-0 opacity-50">
+      <div className="absolute z-0 w-full bottom-0 right-0 opacity-70">
         <Image src={background} alt="Dami.ba" className="w-full h-auto" />
       </div>
+      <div className="rounded-md  w-full relative z-10">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.2659322279706!2d18.360801695271803!3d43.850316466986996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9c89673728d%3A0x7aad0feac9c2e5f6!2sDAMI%20Fitness%20and%20Health!5e0!3m2!1sen!2sba!4v1716970009206!5m2!1sen!2sba"
+          width="600"
+          height="450"
+          loading="lazy"
+          className="w-full"
+        ></iframe>
+      </div>
+      <h2 className="text-6xl text-left w-full my-28 relative z-10">
+        Vaši detalji
+      </h2>
       <div className="flex items-start justify-between gap-10 relative z-10">
         <ContactForm />
         <div className="w-1/2">
@@ -31,15 +42,6 @@ export default function ContactFormWrapper() {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="rounded-md mt-28 w-full relative z-10">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.2659322279706!2d18.360801695271803!3d43.850316466986996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c9c89673728d%3A0x7aad0feac9c2e5f6!2sDAMI%20Fitness%20and%20Health!5e0!3m2!1sen!2sba!4v1716970009206!5m2!1sen!2sba"
-          width="600"
-          height="450"
-          loading="lazy"
-          className="w-full"
-        ></iframe>
       </div>
     </div>
   );

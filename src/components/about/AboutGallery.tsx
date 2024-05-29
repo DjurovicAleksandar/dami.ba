@@ -37,8 +37,8 @@ export default function AboutGallery() {
 
   return (
     <section className="py-28 bg-lightBlue ">
-      <h2 className="text-6xl font-bold mb-28 text-left px-56">
-        Galerija treninga
+      <h2 className="text-6xl text-left w-full px-56 mb-28">
+        Sa naših treninga
       </h2>
       <div className="relative ">
         <div
