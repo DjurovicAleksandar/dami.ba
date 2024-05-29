@@ -11,11 +11,6 @@ export default function AboutCountUp() {
   const isInView = useInView(countRef, { once: true });
   return (
     <div className="w-full bg-gradient-to-r from-stone-800 from-5% via-black via-55% to-stone-800 px-56 py-28 text-white relative">
-      {/* <div>
-        <h2 className="text-6xl font-bold  mb-56 text-center">
-          Dostignuća za pokazivanje
-        </h2>
-      </div> */}
       <div
         ref={countRef}
         className="grid grid-cols-2 gap-4 gap-x-[10vw] items-center shadow-md"

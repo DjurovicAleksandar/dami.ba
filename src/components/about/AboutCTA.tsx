@@ -7,12 +7,12 @@ import prijava from "@/assets/img/about/prijava.webp";
 export default function AboutCTA() {
   return (
     <div className="w-full bg-lightBlue flex flex-col items-center  px-56 py-28 text-black relative">
-      <h2 className="text-6xl font-bold mb-10 text-center">
+      <h2 className="text-6xl text-left w-full mb-10">
         Pridruzite nam se u fitness avanturi!
       </h2>
       <Link
         href="/kontakt"
-        className="bg-darkBlue font-semibold rounded-md text-white py-6 px-8 text-3xl hover:bg-transparent  hover:border-[1px] hover:text-darkBlue duration-300 ease-linear"
+        className="duration-300 ease-linear bg-darkBlue rounded-xl md:hover:bg-transparent md:hover:text-darkBlue border-2 md:transition border-darkBlue mr-5 md:mr-10 py-2 md:py-3 px-6 md:px-12 text-white"
       >
         Prijava
       </Link>

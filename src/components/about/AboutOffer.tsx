@@ -8,7 +8,9 @@ import image4 from "@/assets/img/about/4.png";
 export default function AboutOffer() {
   return (
     <div className="w-full bg-gradient-to-r from-stone-800 from-5% via-black via-55% to-stone-800 h-screen px-56 py-28 text-white">
-      <h2 className="text-6xl font-bold">Naša ponuda uključuje</h2>
+      <h2 className="text-6xl  mb-10 text-left w-full">
+        Naša ponuda uključuje
+      </h2>
       <div className="flex items-center gap-10 mt-28">
         <div className="h-[20rem] w-full">
           <div className="w-10 h-auto">

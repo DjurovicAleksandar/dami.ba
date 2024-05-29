@@ -13,9 +13,7 @@ const Nav = () => {
   return (
     <nav
       ref={navRef}
-
       className={`nav absolute w-full z-[50] duration-300 ease-linear px-56 py-6 items-center justify-between flex shadow-sm ${
-
         isOnTop ? "backdrop-blur-none" : "backdrop-blur-md"
       } `}
     >
@@ -26,7 +24,7 @@ const Nav = () => {
             return (
               <li
                 key={i}
-                className="bg-darkBlue  font-semibold rounded-md text-white py-2 px-4 hover:bg-transparent  hover:border-[1px] hover:text-darkBlue duration-300 ease-linear"
+                className="duration-300 ease-linear bg-darkBlue rounded-xl md:hover:bg-transparent  cursor-pointer md:hover:text-darkBlue border-2 md:transition border-darkBlue py-2 px-4 text-white"
               >
                 <Link href={href}>{name}</Link>
               </li>

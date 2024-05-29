@@ -52,7 +52,7 @@ export default function AboutTeam() {
 
   return (
     <section className="px-56 py-28">
-      <h2 className="text-6xl font-bold">Naš tim</h2>
+      <h2 className="text-6xl text-left w-full">Naš tim</h2>
       <div className="flex items-center justify-between">
         <div>
           <ul>

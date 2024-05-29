@@ -6,9 +6,7 @@ import pin from "@/assets/img/icons/pin.png";
 export default function AboutLocation() {
   return (
     <div className="w-full bg-white flex flex-col items-center  px-56 py-28 text-black">
-      <h2 className="text-6xl font-bold mb-10 text-left w-full">
-        Naše lokacije
-      </h2>
+      <h2 className="text-6xl mb-10 text-left w-full">Naše lokacije</h2>
       <div className="flex items-center justify-between gap-10">
         <div>
           <Image src={location1} alt="Dami.ba" className="rounded-md" />
