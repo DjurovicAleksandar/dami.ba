@@ -24,7 +24,7 @@ const Nav = () => {
             return (
               <li
                 key={i}
-                className="bg-darkBlue font-semibold rounded-md text-white py-2 px-4 hover:bg-transparent hover:text-darkBlue duration-300 ease-linear"
+                className="bg-darkBlue  font-semibold rounded-md text-white py-2 px-4 hover:bg-transparent  hover:border-[1px] hover:text-darkBlue duration-300 ease-linear"
               >
                 <Link href={href}>{name}</Link>
               </li>

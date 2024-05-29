@@ -65,7 +65,7 @@ export default function ContactForm() {
       </div>
       <div className="flex justify-center col-span-2">
         <input
-          className="w-fit mx-auto cursor-pointer bg-darkBlue font-semibold rounded-md text-white py-2 px-4 hover:bg-transparent hover:text-darkBlue duration-300 ease-linear"
+          className="w-full mx-auto cursor-pointer bg-darkBlue font-semibold rounded-md text-white py-2 px-4 hover:bg-transparent hover:text-darkBlue hover:border-[1px] duration-300 ease-linear"
           type="submit"
           value="Pošaljite"
         />
