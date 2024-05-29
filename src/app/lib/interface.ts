@@ -9,6 +9,12 @@ export interface BlogCard {
 export interface BlogPage {
   title: string;
   currentSlug: string;
-  content: string;
+  smallDescription: string;
+  publishedAt: string;
+  content: any;
   mainImage: any;
+  author: {
+    name: string;
+    image: any;
+  };
 }
