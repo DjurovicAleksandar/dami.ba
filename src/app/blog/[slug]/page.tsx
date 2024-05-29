@@ -30,7 +30,7 @@ export default async function BlogSlug({
       <h2 className="pb-16 font-extrabold text-3xl text-darkerBlue">
         Dami.ba | BLOG
       </h2>
-      <div className="flex flex-row-reverse items-start justify-center gap-x-10 w-full">
+      <div className="flex flex-row-reverse items-start justify-center gap-x-10 w-full px-0 xl:px-28">
         <div className="flex flex-col gap-y-8">
           <p className="font-black text-darkerBlue opacity-65">
             {data.publishedAt}
@@ -56,7 +56,7 @@ export default async function BlogSlug({
           width={550}
           height={550}
           priority
-          className="rounded-xl shadow-lg"
+          className="rounded-xl w-1/2 shadow-lg"
           alt={data.title}
         />
       </div>

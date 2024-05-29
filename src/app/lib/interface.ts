@@ -10,6 +10,7 @@ export interface BlogCard {
 
 export interface BlogPage {
   currentSlug: string;
+  title: string;
   smallDescription: string;
   publishedAt: string;
   content: any;
