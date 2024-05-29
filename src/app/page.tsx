@@ -6,10 +6,12 @@ import BlogSection from "@/components/blog/Blog";
 export default function Home() {
   return (
     <>
+
       <HeroSection />
       <Cards />
       <Biography />
       <BlogSection />
+
     </>
   );
 }
