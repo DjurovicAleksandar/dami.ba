@@ -12,7 +12,7 @@ export default function AboutCTA() {
       </h2>
       <Link
         href="/kontakt"
-        className="bg-darkBlue font-semibold rounded-md text-white py-6 px-8 text-3xl hover:bg-transparent hover:text-darkBlue duration-300 ease-linear"
+        className="bg-darkBlue font-semibold rounded-md text-white py-6 px-8 text-3xl hover:bg-transparent  hover:border-[1px] hover:text-darkBlue duration-300 ease-linear"
       >
         Prijava
       </Link>
