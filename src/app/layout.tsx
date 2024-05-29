@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Epilogue } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/navigation/Nav";
+import Footer from "@/components/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Dami",
@@ -13,9 +14,10 @@ export const metadata: Metadata = {
 const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <body className={inter.className}>
+      <body className={epilogue.className}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </>
   );
