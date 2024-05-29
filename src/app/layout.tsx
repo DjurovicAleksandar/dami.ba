@@ -7,7 +7,7 @@ import Footer from "@/components/footer/Footer";
 const epilogue = Epilogue({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Dami.ba",
+  title: "Dami",
   description: "Prostor za rast",
 };
 

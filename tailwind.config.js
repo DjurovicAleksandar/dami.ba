@@ -17,9 +17,10 @@ module.exports = {
       colors: {
         lightBlue: "#EEF6FF",
         darkBlue: "#3297CC",
+        darkerBlue: "#196e9a",
         black: "#0C0908",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

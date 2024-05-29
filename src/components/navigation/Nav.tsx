@@ -13,12 +13,14 @@ const Nav = () => {
   return (
     <nav
       ref={navRef}
+
       className={`nav absolute w-full z-[50] duration-300 ease-linear px-56 py-6 items-center justify-between flex shadow-sm ${
+
         isOnTop ? "backdrop-blur-none" : "backdrop-blur-md"
       } `}
     >
       <Image src={logo} alt="logo" width={56} height={56} />
-      <ul className="flex items-center gap-4 text-black">
+      <ul className="hidden md:flex items-center gap-4 text-[#0b0b0b] uppercase font-semibold">
         {list.list.map(({ name, href }, i) => {
           if (name === "Kontakt") {
             return (
